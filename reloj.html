@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/js/main.js" type="text/JavaScript" defer></script>
+    <script src="./assets/js/login.js" type="text/JavaScript" defer></script>
+    <script src="./assets/js/clock.js" type="text/JavaScript" defer></script>
+    
+    <link href="./assets/css/styles.css" type="text/css" rel="stylesheet"/>   
+    <link href="./assets/css/responsive.css" type="text/css" rel="stylesheet"/>  
+    <link href="./assets/fontawesome-free-6.1.2-web/css/all.min.css" type="text/css" rel="stylesheet"/>   
+    <title>Proyecto JS</title>
+
+</head>
+<body>
+    <div class="layout">
+        <header class="layout__header">
+           
+            <div class="header__logo">
+                <h1 class="logo__text ">PROYECTO JS</h1>
+
+            </div>
+            <nav class ="header__nav">
+                <ul class = nav__list>
+                    <li class = "list__item">
+                        <a href="index.html" class="list__link">INICIO</a>
+                    </li>
+                     <li class = "list__item">
+                        <a href="reloj.html" class="list__link">RELOJ</a>
+                    </li>
+                     <li class = "list__item">
+                        <a href="sobre-mi.html" class="list__link">SOBRE MI</a>
+                    </li>
+                     <li class = "list__item">
+                        <a href="contacto.html" class="list__link">CONTACTO</a>
+                    </li>
+                 
+                </ul>        
+            </nav>
+        </header>       
+
+        <main class="layout__main">
+         <!--Aqui va el Reloj-->
+
+          <div class="clock">
+                <p class="clock__time">Cargando...</p>
+
+            </div>
+        </main>
+        <aside class="layout__aside">
+            <header class="aside__header">
+                <div class="header__container-title">
+                    <h3 class="header__title">
+                        <span class="title__span">¿Quien soy?</span>
+                    </h3>
+                </div>
+                <div class="header__container-img">
+                     <img class="header__img" src="./assets/img/caracol.jpg" alt="caracol"/>   
+                </div>
+                <p class="header__descriptor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, autem. Ipsam sed repellat alias consequuntur eius laudantium, voluptatum a praesentium officia. Accusantium facere commodi nam nemo id blanditiis tempora. Voluptas!</p>
+            </header>
+            <form class="aside__login">
+                <div class="login__container-title">
+                    <h3 class="login__title">
+                        <span class="login__span">Identificate</span>
+                    </h3>
+                </div>
+                <div class="login__form-group">
+                    <label class="login__label" for="name">Nombre:</label>
+                    <input class="login__input" type="text" id="name" name="name"/>
+                </div>
+                <div class="login__form-group">
+                    <label class="login__label" for="name">Email:</label>
+                    <input class="login__input" type="email" id="email" name="email"/>
+                </div>
+
+                <div class="login__form-group">
+                    <label class="login__label" for="pass">Contraseña:</label>
+                    <input class="login__input" type="password" id="pass" name="pass"/>
+                </div>
+                
+                <input class ="login__submit" type="submit" value="Entrar"/>
+            </form>
+            <div class="aside__data aside__data--hide">
+                <p class="data_text">
+                    Bienvenido, <span class="data__name"></span>
+                </p>
+                <button class="data__logout">Cerrar Sesion</button>
+            </div>
+        </aside>
+    </div>
+    <footer class = "footer">
+        <p class="footer__text">Todos los derechos reservados a Maricela Gomez Ortiz WEB &copy;</p>
+        <p class="footer__top">Ir hacia arriba</p>
+    </footer>
+    <div class="themes">
+        <div class="theme__green"></div>
+        <div class="theme__blue"></div>
+        <div class="theme__red"></div>
+    </div>
+</body>
+</html>
