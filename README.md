@@ -20,7 +20,7 @@
 <br>
 
 
-Listado de items  <br><br>
+🔶 Listado de items  <br><br>
 
 <img width="719" height="513" alt="image" src="https://github.com/user-attachments/assets/766fcd7a-40eb-43f8-aee5-e3655c4eb6c3" />
 
